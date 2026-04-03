@@ -15,8 +15,8 @@ CREATE TABLE tb_profissionais(
 	id_cargo INT,
 	id_profissional INT,
 	nm_profissional VARCHAR(100) NOT NULL,
-	qt_salario FLOAT,
-	qt_idade INT,
+	qt_salario FLOAT NOT NULL,
+	qt_idade INT NOT NULL,
 	PRIMARY KEY(id_profissional),
 	FOREIGN KEY(id_cargo) REFERENCES tb_cargos(id_cargo)
 );
