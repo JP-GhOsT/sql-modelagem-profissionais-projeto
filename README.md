@@ -88,6 +88,7 @@ INSERT INTO tb_profissional_projeto VALUES
 (2,1),
 (2,3);
 
+```
 ---
 
 ## 🔎 Consulta Exemplo
@@ -105,7 +106,7 @@ JOIN tb_projetos pr ON pp.id_projeto = pr.id_projeto
 ORDER BY p.id_cargo, p.id_profissional, pp.id_projeto;
 
 > Mostra cada profissional com seu cargo e os projetos que participa.
-
+```
 ---
 
 ## 🛠️ Conceitos Demonstrados
